@@ -1,4 +1,51 @@
-body{
-    font-family: 'Comic Neue', cursive;
 
+
+
+*{
+    font-family: 'Comic Neue', cursive;
+    font-size: larger;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 50px 100px;    
+
+}
+nav .navegation{    
+    text-align: end;
+}
+nav{
+    position: relative;
+    top: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    background: rgb(74, 118, 199);
+    padding: 0px 10px;
+    font-size: 30px;
+    border: 2px solid black;
+    
+}
+nav .active{
+    background: rgb(41, 190, 41);
+}
+.banner{
+    width: 100%;
+    
+}
+main h2{
+    text-align: center;
+}
+
+.logo {       
+    width: 12%;    
+    display: inline-block;
+    position: absolute;   
+}
+
+.info{    
+    width: 70%;
+    margin-left:15%;
 }
