@@ -1,51 +1,68 @@
-
-
-
-*{
-    font-family: 'Comic Neue', cursive;
-    font-size: larger;
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  font-family: "Comic Neue", cursive;
+  font-size: large;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-body{
-    margin: 50px 100px;    
-
+body {
+  margin: 50px 100px;
 }
-nav .navegation{    
-    text-align: end;
+h1 {
+  font-size: 240%;
 }
-nav{
-    position: relative;
-    top: 10px;
+nav .navegation {
+  text-align: end;
 }
-nav a{
-    text-decoration: none;
-    color: white;
-    background: rgb(74, 118, 199);
-    padding: 0px 10px;
-    font-size: 30px;
-    border: 2px solid black;
-    
+nav {
+  position: relative;
+  top: 10px;
 }
-nav .active{
-    background: rgb(41, 190, 41);
+nav a {
+  text-decoration: none;
+  color: white;
+  background: rgb(74, 118, 199);
+  padding: 0px 10px;
+  font-size: 30px;
+  border: 2px solid black;
+  filter: grayscale(40%);
 }
-.banner{
-    width: 100%;
-    
+nav .active {
+  background: rgb(41, 190, 41);
 }
-main h2{
-    text-align: center;
+.banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:99%;  
+  padding: 1px 1px 0px 1px;  
+  background: black;  
 }
-
-.logo {       
-    width: 12%;    
-    display: inline-block;
-    position: absolute;   
+a:hover {
+  filter: brightness(110%);
+  
 }
 
-.info{    
-    width: 70%;
-    margin-left:15%;
+main h2 {
+  text-align: center;
+}
+.container {
+  position: relative;
+  z-index: -1;
+}
+.logo {
+  width: 12%;
+  display: inline-block;
+  position: absolute;
+}
+
+.info {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 2%;
+}
+.title {
+  text-align: center;
+  border: 2px solid black;
+  padding: 2% 0;
 }
