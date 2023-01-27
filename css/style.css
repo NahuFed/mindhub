@@ -15,8 +15,9 @@ nav .navegation {
   text-align: end;
 }
 nav {
-  position: relative;
-  top: 10px;
+  position: absolute;
+  top: 80px;
+  right: 10%;
 }
 nav a {
   text-decoration: none;
@@ -34,22 +35,19 @@ nav .active {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:99%;  
-  padding: 1px 1px 0px 1px;  
-  background: black;  
+  width: 99%;
+  padding: 1px 1px 0px 1px;
+  background: black;
 }
 a:hover {
   filter: brightness(110%);
-  
 }
 
 main h2 {
   text-align: center;
+  font-size: 160%;
 }
-.container {
-  position: relative;
-  z-index: -1;
-}
+
 .logo {
   width: 12%;
   display: inline-block;
@@ -57,12 +55,11 @@ main h2 {
 }
 
 .info {
-  width: 70%;
   margin-left: 15%;
   margin-top: 2%;
 }
 .title {
   text-align: center;
   border: 2px solid black;
-  padding: 2% 0;
+  padding: 1% 0;
 }
