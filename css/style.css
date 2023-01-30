@@ -8,58 +8,45 @@
 body {
   margin: 50px 100px;
 }
-h1 {
-  font-size: 240%;
+.navegation{
+  display: flex;
+  gap: 1rem;
+
 }
-nav .navegation {
-  text-align: end;
-}
-nav {
-  position: absolute;
-  top: 80px;
-  right: 10%;
-}
-nav a {
+.navegation a{
   text-decoration: none;
+  font-size: 1.5rem;
   color: white;
-  background: rgb(74, 118, 199);
-  padding: 0px 10px;
-  font-size: 30px;
-  border: 2px solid black;
-  filter: grayscale(40%);
+  background: rgb(161, 161, 228);
 }
-nav .active {
-  background: rgb(41, 190, 41);
+h1 {
+  font-size: 3rem;
+  ;
 }
-.banner {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 99%;
-  padding: 1px 1px 0px 1px;
-  background: black;
-}
-a:hover {
-  filter: brightness(110%);
-}
-
-main h2 {
+section{
   text-align: center;
-  font-size: 160%;
 }
 
-.logo {
-  width: 12%;
-  display: inline-block;
-  position: absolute;
+figure img{
+  width: 100%;
+}
+.container{
+  display: flex;
+  gap: 1rem;
+  text-align: left;
+  
+}
+#subtitle{
+  font-size: 2rem;
+  outline: 1px solid black;
 }
 
-.info {
-  margin-left: 15%;
-  margin-top: 2%;
+
+.container img{
+  width: 10rem;
+  height: 10rem;
 }
-.title {
-  text-align: center;
-  border: 2px solid black;
-  padding: 1% 0;
+
+.info p,h3{
+  font-size: 2rem;
 }
