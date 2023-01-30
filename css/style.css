@@ -5,19 +5,28 @@
   padding: 0px;
   box-sizing: border-box;
 }
-body {
-  margin: 50px 100px;
+main {
+  margin: 0px 100px;
 }
 .navegation{
+  background: rgb(100, 170, 129);
+  
   display: flex;
+ justify-content: flex-end;
   gap: 1rem;
 
 }
-.navegation a{
+nav a {
   text-decoration: none;
-  font-size: 1.5rem;
   color: white;
-  background: rgb(161, 161, 228);
+  background: rgb(74, 118, 199);
+  padding: 0px 10px;
+  font-size: 30px;
+  border: 2px solid black;
+  filter: grayscale(40%);
+}
+nav .active {
+  background: rgb(41, 190, 41);
 }
 h1 {
   font-size: 3rem;
