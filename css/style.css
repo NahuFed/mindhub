@@ -9,12 +9,11 @@ main {
   margin: 0px 100px;
 }
 .navegation{
-  background: rgb(100, 170, 129);
-  
+  background: rgb(100, 170, 129);  
   display: flex;
- justify-content: flex-end;
-  gap: 1rem;
-
+  justify-content: flex-end;
+  
+  
 }
 nav a {
   text-decoration: none;
@@ -24,9 +23,13 @@ nav a {
   font-size: 30px;
   border: 2px solid black;
   filter: grayscale(40%);
+  margin-right: 1rem;
 }
 nav .active {
   background: rgb(41, 190, 41);
+}
+a:hover {
+  filter: brightness(110%);
 }
 h1 {
   font-size: 3rem;
