@@ -5,15 +5,18 @@
   padding: 0px;
   box-sizing: border-box;
 }
-main {
+main {  
   margin: 0px 100px;
+  margin-top: 48px;
 }
-.navegation{
+
+nav{
+  position: fixed;
+  top: 0px;
+  width: 100%;
   background: rgb(100, 170, 129);  
   display: flex;
-  justify-content: flex-end;
-  
-  
+  justify-content: flex-end; 
 }
 nav a {
   text-decoration: none;
@@ -92,3 +95,4 @@ ol{
 h2{
   margin-top: 20px;
 }
+
