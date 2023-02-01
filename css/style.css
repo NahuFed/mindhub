@@ -14,7 +14,7 @@ nav{
   position: fixed;
   top: 0px;
   width: 100%;
-  background: rgb(100, 170, 129);  
+  background: #5FA199 ;  
   display: flex;
   justify-content: flex-end; 
 }
@@ -79,20 +79,24 @@ table tr:nth-child(4n-2),tr:nth-child(4n-1){
   background: #cacaca;
 }
 
-p,li{
-  margin-top: 1rem;
+p,li,h2,dt{
+padding-top: 1rem;
 }
 .rules{
   text-align: center;
   margin-bottom: 1rem;
 }
 ol{
-  display: inline;
-  outline: 1px solid grey;
+  display: inline;  
   list-style-position: inside;
   margin-top: rem;
 }
-h2{
-  margin-top: 20px;
+
+dt{  
+  font-weight:bold ;
 }
 
+li ol li{
+  list-style-type: lower-alpha;
+  margin-left: 1rem;
+}
