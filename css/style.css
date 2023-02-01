@@ -75,7 +75,7 @@ table,td,th{
   border-collapse: collapse;
 }
 
-table tr:nth-child(4n-2),tr:nth-child(4n-1){
+table tr:nth-child(4n),tr:nth-child(4n-1){
   background: #cacaca;
 }
 
@@ -99,4 +99,7 @@ dt{
 li ol li{
   list-style-type: lower-alpha;
   margin-left: 1rem;
+}
+caption{
+  text-align: left;
 }
