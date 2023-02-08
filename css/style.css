@@ -131,23 +131,14 @@ caption{
 }
 
 fieldset{
-  padding:1rem;
-  ;
-}
-
-fieldset fieldset{
-  border: none;
-  padding: 0;
+  padding:1rem; 
 }
 
 legend{
 padding: 1rem;
 font-weight: bolder;
 }
-fieldset fieldset legend{
-  padding-left:  0;
-  font-size: larger;
-}
+
 form {
   width: 90%;
   max-width: 800px;
@@ -170,7 +161,8 @@ input[type="text"]{
   width: 100%;
   border-radius: 0.3125em;
   padding: 0.8rem 1.25rem;
-} 
+}
+
 input[type="submit"] {
   width: 100%;
   background-color: #49cf3f;
